@@ -161,7 +161,12 @@ li a.active, li a:hover{
 	font-weight: bold;
 	font-size: 14px;
 	text-align: center;
+<<<<<<< HEAD
 	padding: 2px;
+=======
+	padding: 2
+	px;
+>>>>>>> rama1
 	border: none;
 	border-radius: 100px;
 	font-family: 'Roboto', sans-serif;
