@@ -150,9 +150,27 @@ li a.active, li a:hover{
 	
 }
 
+.card a{
+ text-decoration: none;
+
+}
+.botonCard{
+	background: #b6df00;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 2px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+
+}
+
 .card .textos {
 	height: 100%;
-	
 	
 }
 .footer {
