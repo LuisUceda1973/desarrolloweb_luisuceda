@@ -4,94 +4,127 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/estilo.css">
 	<title>Luis Uceda</title>
 </head>
-<!-----------------------ESTA ES LA RAMA 1------------------------------->
+
 <body>
-	<div class="contenedor">
-		<!-----------------------NAVEGACION------------------------------->
-    <nav>			
-			<input type="checkbox" id="check">
-			<label for="check" class="checkbtn">
-					<i class="fas fa-bars"></i>
-			</label> 
-			<a href="/" class="enlace">
-					<img src="./img/1.png" alt="" class="logo">
-			</a> 
-			<ul>
-					<li><a class="active" href="./view/institucion.html">La Institucion</a></li>
-					<li><a href="./view/predio.html">El Predio</a></li>
-					<li><a href="./view/escuela.html">La Escuela</a></li>
-					<li><a href="./view/socio.html">Socio</a></li>
-					<li><a href="#">Contacto</a></li>
-			</ul> 
-		</nav>
+	<!--ESTA ES LA NAVEGACIO-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<!--CLASS CONTAINER CENTR Y SEPARA DE LOS MARGENES-->
+			<div class="container">
+					<!--INSERTANDO UN LOGO ENLA NAVEGACION-->
+					<a class="navbar-brand nav" href="/">
+							<img src="img/8.png" alt="Logo de la Empresa" style="width: 90%">
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav ml-auto">
+									<li class="nav-item active">
+									<a class="nav-link" href="./view/institucion.html">La Institucion</a>
+									</li>
+									<li class="nav-item">
+									<a class="nav-link" href="./view/predio.html">El Predio</a>
+									</li>
+									<li class="nav-item">
+									<a class="nav-link" href="./view/escuela.html">La Escuela</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="./view/socio.html">Socio</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="./view/contacto.html">Contacto</a>
+									</li>
+							</ul>
+					</div>
+			</div>		
+	</nav>
 
-    <!-----------------------CONTENIDO PRINCIPAL------------------------------->
-		<div class="cabezera" style="background-image: url('./img/7.png')">
-			<h1>EL PREDIO</h1>
-			<a href="/"><button class="boton">Ingresar</button></a>
+	<!--CARRUSEL-->
+	<section class="container-log p-4">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<a class="nav-link" href="./view/institucion.html">
+					<img src="./img/1 carru.png" class="d-block w-100" alt="...">
+				</a>
+				</div>
+				<div class="carousel-item">
+					<a class="nav-link" href="./view/predio.html">
+					<img src="./img/2 carru.png" class="d-block w-100" alt="...">
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a class="nav-link" href="./view/escuela.html">
+					<img src="./img/3 carru.png" class="d-block w-100" alt="...">
+					</a>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
 		</div>
-
-    <!-----------------------PRINCIPALES ACCESOS------------------------------->
-		<div class="contenedor-directo">
-			<div class="card" style="background-image: url('./img/acti.jpg')">
-				<div class="textos">
-					<h3>ACTIVIDADES</h3>
-					<p>Proyecto e Imagenes</p>
+	</section>
+	<!--ACCESOS-->
+	<section class="acceso text-center">
+		<div class="container-log p-3">
+			<div class="row p-5">
+				<!--ACCESO 1-->
+				<div class="col-lg-4">
+						<div class="imgAcceso">
+							<img src="./img/soc.jpeg" alt="" style="width: 100%">
+							<h3>NOTICIAS</h3>
+							<!--AGREGA UN BOTON DE UN COLOR SECUNDARIO CON EL TEXTO "LEER MAS" DE COLOR BLANCO Y LO AGRANDA-->
+							<a href="#" class="btn btn-outline-secondary btn-lg text-white	">
+									Ingresar
+							</a>
+						</div>						
 				</div>
-				<a href="/"><button class="botonCard">Ingresar</button></a>
-			</div>
-			<div class="card" style="background-image: url('./img/escu.jpeg')">
-				<div class="textos">
-					<h3>LA ESCUELA</h3>
-					<p>Proyecto e Imagenes</p>
+				<!--ACCESO 1-->
+				<div class="col-lg-4">
+					<div class="imgAcceso">
+						<img src="./img/soc.jpeg" alt="" style="width: 100%">
+						<h3>NOTICIAS</h3>
+						<!--AGREGA UN BOTON DE UN COLOR SECUNDARIO CON EL TEXTO "LEER MAS" DE COLOR BLANCO Y LO AGRANDA-->
+						<a href="#" class="btn btn-outline-secondary btn-lg text-white	">
+								Ingresar
+						</a>
+					</div>						
 				</div>
-				<a href="./view/escuela.html"><button class="botonCard">Ingresar</button></a>
-			</div>
-			<div class="card" style="background-image: url('./img/soc.jpeg')">
-				<div class="textos">
-					<h3>SOCIOS</h3>
-					<p>Proyecto e Imagenes</p>
+				<!--ACCESO 1-->
+				<div class="col-lg-4">
+					<div class="imgAcceso">
+						<img src="./img/soc.jpeg" alt="" style="width: 100%">
+						<h3>NOTICIAS</h3>
+						<!--AGREGA UN BOTON DE UN COLOR SECUNDARIO CON EL TEXTO "LEER MAS" DE COLOR BLANCO Y LO AGRANDA-->
+						<a href="#" class="btn btn-outline-secondary btn-lg text-white	">
+								Ingresar
+						</a>
+					</div>						
 				</div>
-				<a href="/"><button class="botonCard">Ingresar</button></a>
-			</div>
-			<div class="card" style="background-image: url('./img/inst.jpg')">
-				<div class="textos">
-					<h3>LA INSTITUCION</h3>
-					<p>Proyecto e Imagenes</p>
-				</div>
-				<a href="./view/institucion.html"><button class="botonCard">Ingresar</button></a>
-			</div>
-			<div class="card" style="background-image: url('./img/depo.jpeg')">
-				<div class="textos">
-					<h3>DEPORTES</h3>
-					<p>Proyecto e Imagenes</p>
-				</div>
-				<a href="/"><button class="botonCard">Ingresar</button></a>
-			</div>
-			<div class="card" style="background-image: url('./img/noti.jpg')">
-				<div class="textos">
-					<h3>NOTICIAS</h3>
-					<p>Proyecto e Imagenes</p>
-				</div>
-				<a href="/"><button class="botonCard">Ingresar</button></a>
 			</div>
 		</div>
-
-    <!-----------------------PIE DE PAGINA------------------------------->
-		<div class="footer">
-				<h3>Derechos Reservados</h3>
-				<h3>Redes Sociales</h3>
-			
+	</section>
+	<!--FOOTER"-->
+	<footer>
+		<div class="container p-3 text-white text-center">
+				<p>Copyright &copy; 2018</p>
 		</div>
-
-		
-	</div>
+	</footer>
+<!--FIN DE FOOTER"-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

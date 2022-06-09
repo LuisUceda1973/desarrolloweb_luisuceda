@@ -12,59 +12,43 @@ body {
 	min-height: 100vh;
 }
 
+/*------ NUEVO NAVBAR ---------*/
+.navbar {
+  box-shadow: 2px 2px 5px ##1D202B;
+  opacity: .9;
+}
 
+.navbar .nav-item .nav-link {
+  margin-right: 1rem;
+	font-size: 20px;
+}
 
-
-
-nav{
-  background: #ff0101;
-  height: 80px;
-  width: 100%;
-}
-.enlace{
-  position: absolute;
-  padding: 20px 80px;
-}
-.logo{
-  height: 45px;
-}
-nav ul{
-  float: right;
-  margin-right: 20px;
-}
-nav ul li{
-  display: inline-block;
-  line-height: 75px;
-  margin: 0 5px;
-}
-nav ul li a{
+.navbar .nav-item .nav-link:hover {
   color: #fff;
-  font-size: 16px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-	text-decoration: none;
+	background: #f10606;
+	transition: .5s;
+	
 }
-li a.active, li a:hover{
-  background: #000090;
-  transition: .5s;
-	text-decoration: none;
+
+.nav{
+	margin-right: 6rem;
 }
-.checkbtn{
-  font-size: 30px;
-  color: #fff;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-#check{
-  display: none;
-}
+
+/*------ FIN DEL NUEVO NAVBAR ---------*/
 
 
 /*-----------------CABEZERA----------------*/
+.acceso, footer {
+  background: #1D202B;
+}
+
+.imgAcceso {  
+  background:rgb(247, 3, 3);
+	color: rgb(255, 255, 255);
+}
+
+
+
 
 
 
@@ -161,12 +145,7 @@ li a.active, li a:hover{
 	font-weight: bold;
 	font-size: 14px;
 	text-align: center;
-<<<<<<< HEAD
 	padding: 2px;
-=======
-	padding: 2
-	px;
->>>>>>> rama1
 	border: none;
 	border-radius: 100px;
 	font-family: 'Roboto', sans-serif;
