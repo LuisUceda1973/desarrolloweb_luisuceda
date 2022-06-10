@@ -12,7 +12,7 @@ body {
 	min-height: 100vh;
 }
 
-/*------ NUEVO NAVBAR ---------*/
+/*------  NAVBAR ---------*/
 .navbar {
   box-shadow: 2px 2px 5px ##1D202B;
   opacity: .9;
@@ -34,10 +34,11 @@ body {
 	margin-right: 6rem;
 }
 
-/*------ FIN DEL NUEVO NAVBAR ---------*/
-
 
 /*-----------------CABEZERA----------------*/
+
+
+
 .acceso, footer {
   background: #1D202B;
 }
@@ -50,10 +51,8 @@ body {
 
 
 
-
-
 .contenedor {
-	max-width: 1200px;
+	
 	margin: auto;
 	padding: 40px 0;
 	display: grid;
@@ -64,7 +63,7 @@ body {
 }
 
 .contenedor-otro {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: auto;
 	padding: 40px 0;
 	display: grid;

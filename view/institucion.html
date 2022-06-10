@@ -5,84 +5,85 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<!--FONT AWESOME "ICONOS"-->
+	<script src="https://kit.fontawesome.com/480e36621b.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="../css/estilo.css">
 	<title>Luis Uceda|La Institucion</title>
 </head>
 
 <body>
 	<!--ESTA ES LA NAVEGACIO-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<!--CLASS CONTAINER CENTR Y SEPARA DE LOS MARGENES-->
-		<div class="container">
-				<!--INSERTANDO UN LOGO ENLA NAVEGACION-->
-				<a class="navbar-brand nav" href="/">
-						<img src="../img/8.png" alt="Logo de la Empresa" style="width: 90%">
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav ml-auto">
-								<li class="nav-item active">
-								<a class="nav-link" href="../view/institucion.html">La Institucion</a>
-								</li>
-								<li class="nav-item">
-								<a class="nav-link" href="../view/predio.html">El Predio</a>
-								</li>
-								<li class="nav-item">
-								<a class="nav-link" href="../view/escuela.html">La Escuela</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="../view/socio.html">Socio</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="../view/contacto.html">Contacto</a>
-								</li>
-						</ul>
-				</div>
-		</div>		
-	</nav>
-
-
-	<div class="contenedor-otro">
-		<h1>LA INSTITUCION</h1>
-    <!-----------------------PRINCIPALES ACCESOS------------------------------->
-		<div class="contenedor-directo-otro">
-			<div class="card" style="background-image: url('../img/7.png')">
-				<div class="textos">
-					<h3>ACTIVIDADES</h3>
-					<p>Proyecto e Imagenes</p>
-				</div>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">			<
+			<div class="container">					
+					<a class="navbar-brand nav" href="/">
+							<img src="../img/8.png" alt="Logo de la Empresa" style="width: 90%">
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav ml-auto">
+									<li class="nav-item active">
+									<a class="nav-link" href="../view/institucion.html">La Institucion</a>
+									</li>
+									<li class="nav-item">
+									<a class="nav-link" href="../view/predio.html">El Predio</a>
+									</li>
+									<li class="nav-item">
+									<a class="nav-link" href="../view/escuela.html">La Escuela</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="../view/socio.html">Socio</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="../view/contacto.html">Contacto</a>
+									</li>
+							</ul>
+					</div>
+			</div>		
+		</nav>
+	</header>
+	
+	<seccion class="container">
+		<div class="row p-5">
+			<div class="col-md-8">				
+				<img src="../img/inst.jpg" alt="Imagen del producto" class="img-fluid d-none d-sm-block" style="width: 90%">
 			</div>
-			<div class="card" style="background-image: url('../img/7.png')">
-				<div class="textos">
-					<h3>LA ESCUELA</h3>
-					<p>Proyecto e Imagenes</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('../img/7.png')">
-				<div class="textos">
-					<h3>SOCIOS</h3>
-					<p>Proyecto e Imagenes</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('../img/7.png')">
-				<div class="textos">
-					<h3>LA INSTITUCION</h3>
-					<p>Proyecto e Imagenes</p>
-				</div>
-			</div>      
+			<div class="col-md-4 text-center justify-content-center align-self-center">
+					<h1>LA INSTITUCION</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a perspiciatis aliquid cumque et, autem ab doloribus harum quasi dolorum, accusamus ratione, maxime quidem sed cum. Non iste perferendis at.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a perspiciatis aliquid cumque et, autem ab doloribus harum quasi dolorum, accusamus ratione, maxime quidem sed cum. Non iste perferendis at.</p>
+			</div>	
 		</div>
-
-    <!-----------------------PIE DE PAGINA------------------------------->
-				
-	</div>
-
+	</seccion>	
+	
 	<footer>
-		<div class="container p-3 text-red text-center">
-				<p>Copyright &copy; 2018</p>
+		<div class="container p-3 text-white text-center">				
+			<div class="d-flex flex-row justify-content-center">
+				<div class="p-4">
+						<a href="http://faceboock.com/crplp" target="blank">
+								<i class="fa-brands fa-facebook-f"></i>
+						</a>
+						
+				</div>
+				<div class="p-4">
+						<a href="http://twitter.com" target="blank">
+								<i class="fa-brands fa-twitter"></i>
+						</a>
+						
+				</div>
+				<div class="p-4">
+						<a href="http://instagram.com/crplp" target="blank">
+								<i class="fa-brands fa-instagram"></i>
+						</a>
+						
+				</div>
+			</div>
+			<p>Copyright &copy; 2018</p>
 		</div>
 	</footer>
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 </html>
