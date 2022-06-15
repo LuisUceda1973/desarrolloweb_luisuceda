@@ -14,7 +14,7 @@ body {
 
 /*------  NAVBAR ---------*/
 .navbar {
-  box-shadow: 2px 2px 5px ##1D202B;
+  box-shadow: 2px 2px 5px #000000;
   opacity: .9;
 }
 
@@ -39,18 +39,37 @@ body {
 
 
 
-.acceso, footer {
+.acceso {
   background: #1D202B;
 }
 
+.btnAcceso{
+	background-color: #f10606;
+}
+
 .imgAcceso {  
-  background:rgb(247, 3, 3);
-	color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+.conten{
+	box-shadow: 2px 2px 5px #000000
+}
+
+.imgInst{
+	border-radius: 10px;
+}
+
+.piepag{
+	background:#292828;
+}
+
+.tarjeta{
+	background-color: rgb(182, 8, 8);
 }
 
 
 
-
+/* ------------------*/ 
 .contenedor {
 	
 	margin: auto;
@@ -72,7 +91,7 @@ body {
 
 	
 }
-
+/*
 .cabezera {
 
 	text-align: center;
@@ -103,6 +122,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
 }
+
+*/
 .titulo {
 	font-size: 24px;
 	padding: 20px 0;
@@ -156,15 +177,9 @@ body {
 	height: 100%;
 	
 }
-.footer {
-	background-color: red;
-	text-align: center;
-	padding: 10px;
-	
-	
-}
 
 
+/*
 @media (max-width: 952px){
   .enlace{
       padding-left: 20px;
