@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1D202B;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #000000;
+  opacity: 0.9;
+}
+.navbar .nav {
+  margin-right: 6rem;
+}
+.navbar .nav-link {
+  margin-right: 1rem;
+  font-size: 20px;
+}
+.navbar .nav-link:hover {
+  color: #fff;
+  background: #f10606;
+  transition: 0.5s;
+}
+
+.acceso {
+  background: #1D202B;
+}
+.acceso .imgAcceso {
+  border-radius: 3px;
+}
+.acceso .btnAcceso {
+  background-color: #f10606;
+}/*# sourceMappingURL=main.css.map */

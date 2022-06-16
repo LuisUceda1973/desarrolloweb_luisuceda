@@ -18,38 +18,35 @@ body {
   opacity: .9;
 }
 
-.navbar .nav-item .nav-link {
+.navbar .nav{
+	margin-right: 6rem;
+}
+.navbar .nav-link {
   margin-right: 1rem;
 	font-size: 20px;
 }
 
-.navbar .nav-item .nav-link:hover {
+.navbar .nav-link:hover {
   color: #fff;
 	background: #f10606;
 	transition: .5s;
 	
 }
 
-.nav{
-	margin-right: 6rem;
-}
-
-
 /*-----------------CABEZERA----------------*/
-
-
 
 .acceso {
   background: #1D202B;
+}
+
+.imgAcceso {  
+  border-radius: 3px;
 }
 
 .btnAcceso{
 	background-color: #f10606;
 }
 
-.imgAcceso {  
-  border-radius: 3px;
-}
 
 .conten{
 	box-shadow: 2px 2px 5px #000000
@@ -67,18 +64,13 @@ body {
 	background-color: rgb(182, 8, 8);
 }
 
-
-
 /* ------------------*/ 
-.contenedor {
-	
+.contenedor {	
 	margin: auto;
 	padding: 40px 0;
 	display: grid;
 	grid-template-rows: 0.2fr 1.6fr 1fr 0.15fr;
-	gap: 60px;
-
-	
+	gap: 60px;	
 }
 
 .contenedor-otro {
@@ -87,43 +79,9 @@ body {
 	padding: 40px 0;
 	display: grid;
 	grid-template-rows: 0.2fr 0.1fr 1fr 0.15fr;
-	gap: 20px;
-
-	
-}
-/*
-.cabezera {
-
-	text-align: center;
-	padding: 50px;
-	background-size: cover;
-	background-position: center center;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
-
+	gap: 20px;	
 }
 
-.cabezera a{
-	text-decoration: none;
-}
-
-.cabezera .boton {
-	background: #b6df00;
-	display: block;
-	width: 100%;
-	font-weight: bold;
-	font-size: 14px;
-	text-align: center;
-	padding: 10px;
-	border: none;
-	border-radius: 100px;
-	font-family: 'Roboto', sans-serif;
-	cursor: pointer;
-}
-
-*/
 .titulo {
 	font-size: 24px;
 	padding: 20px 0;
@@ -150,13 +108,10 @@ body {
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-
-	
 }
 
 .card a{
  text-decoration: none;
-
 }
 .botonCard{
 	background: #b6df00;
@@ -170,52 +125,8 @@ body {
 	border-radius: 100px;
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
-
 }
 
 .card .textos {
-	height: 100%;
-	
-}
-
-
-/*
-@media (max-width: 952px){
-  .enlace{
-      padding-left: 20px;
-  }
-  nav ul li a{
-      font-size: 16px;
-  }
-}
-
-@media (max-width: 858px){
-  .checkbtn{
-      display: block;
-  }
-  ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #2c3e50;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-  }
-  nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-  }
-  nav ul li a{
-      font-size: 20px;
-  }
-  li a:hover, li a.active{
-      background: none;
-      color: red;
-  }
-  #check:checked ~ ul{
-      left:0;
-  }
+	height: 100%;	
 }

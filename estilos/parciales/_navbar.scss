@@ -1,0 +1,16 @@
+.navbar {
+  box-shadow: 2px 2px 5px #000000;
+  opacity: .9;
+  .nav{
+    margin-right: 6rem;
+  }
+  .nav-link {
+    margin-right: 1rem;
+    font-size: 20px;
+  }
+  .nav-link:hover {
+    color: #fff;
+    background: #f10606;
+    transition: .5s;	
+  }
+}
